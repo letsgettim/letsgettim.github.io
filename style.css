@@ -24,7 +24,7 @@ body{
   }
 
   img{
-    width: 35vh !IMPORTANT;
+    width: 28vh !IMPORTANT;
     height: 28vh !IMPORTANT;
   }
 }
@@ -45,8 +45,8 @@ p{
 }
 
 img{
-  width: 50vh;
-  height: 40vh;
+  width: 30vh;
+  height: 30vh;
   position: fixed;
   bottom: 0;
   margin: 5% auto;
