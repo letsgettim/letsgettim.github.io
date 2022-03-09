@@ -1,0 +1,90 @@
+@font-face{
+  font-family: 'Iosevka';
+  src: url(./iosevka-regular.ttf) format('truetype');
+}
+
+html{
+  background-color: white;
+}
+
+body{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Iosevka';
+  line-height: 75%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@media (min-width: 300px) and (max-width: 1000px) {
+  body {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  img{
+    width: 35vh !IMPORTANT;
+    height: 28vh !IMPORTANT;
+  }
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+p{
+  color: black;
+  line-height: 150%;
+}
+
+img{
+  width: 50vh;
+  height: 40vh;
+  position: fixed;
+  bottom: 0;
+  margin: 5% auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#navbar{
+  color: #8e8e8e;
+}
+
+#navbarLink{
+  color: #8e8e8e;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#navbarLink:hover{
+  color: black;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+#title{
+  line-height: 100%;
+  margin-top: 12px;
+}
+
+#box{
+  border-style: groove;
+  border-width: 1px;
+  height: 58vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-left: 50px;
+  padding-right: 50px;
+  z-index: 0;
+}
