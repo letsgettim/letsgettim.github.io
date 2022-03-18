@@ -5,6 +5,7 @@
 
 html{
   background-color: white;
+  overflow-y: scroll;
 }
 
 body{
@@ -18,14 +19,9 @@ body{
 
 @media (min-width: 300px) and (max-width: 1000px) {
   body {
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 10%;
     margin-right: 10%;
-  }
-
-  img{
-    width: 18vh !IMPORTANT;
-    height: 18vh !IMPORTANT;
   }
 }
 
@@ -42,19 +38,6 @@ a:hover{
 p{
   color: black;
   line-height: 150%;
-}
-
-img{
-  width: 30vh;
-  height: 30vh;
-  position: fixed;
-  bottom: 0;
-  margin: 5% auto;
-  margin-bottom: 0;
-  margin-top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
 }
 
 #navbar{
@@ -75,22 +58,14 @@ img{
 }
 
 #title{
-  line-height: 100%;
-  margin-top: 12px;
+  line-height: 75%;
 }
 
-#box{
-  border-style: groove;
-  border-width: 1px;
-  height: 58vh;
-  overflow: scroll;
-  overflow-x: hidden;
-  padding-left: 50px;
-  padding-right: 50px;
-  z-index: 0;
-}
-
-#tim {
+#tim{
   margin: 0px;
-  padding-right: 2%;
+}
+
+#dummy{
+  visibility: hidden;
+  pointer-event: none;
 }
