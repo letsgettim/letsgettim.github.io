@@ -24,8 +24,8 @@ body{
   }
 
   img{
-    width: 20vh !IMPORTANT;
-    height: 20vh !IMPORTANT;
+    width: 18vh !IMPORTANT;
+    height: 18vh !IMPORTANT;
   }
 }
 
@@ -59,6 +59,7 @@ img{
 
 #navbar{
   color: #8e8e8e;
+  margin-top: 0px;
 }
 
 #navbarLink{
@@ -87,4 +88,9 @@ img{
   padding-left: 50px;
   padding-right: 50px;
   z-index: 0;
+}
+
+#tim {
+  margin: 0px;
+  padding-right: 2%;
 }
