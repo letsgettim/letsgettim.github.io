@@ -19,7 +19,7 @@ body{
 
 @media (min-width: 300px) and (max-width: 1000px) {
   body {
-    font-size: 35px;
+    font-size: 30px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -59,11 +59,6 @@ p{
 
 #title{
   line-height: 75%;
-}
-
-#tim{
-  margin: 0px;
-  margin-bottom: 5px;
 }
 
 #dummy{
