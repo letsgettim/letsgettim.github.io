@@ -43,6 +43,7 @@ p{
 #navbar{
   color: #8e8e8e;
   margin-top: 0px;
+  padding-top: 19px;
 }
 
 #navbarLink{
@@ -64,4 +65,11 @@ p{
 #dummy{
   visibility: hidden;
   pointer-event: none;
+}
+
+hr{
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
 }
